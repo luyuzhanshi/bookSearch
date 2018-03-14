@@ -1,0 +1,847 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<style>
+<!--
+input
+	{}
+ul
+	{}
+li
+	{}
+button
+	{}
+textarea
+	{}
+p
+	{}
+#destit
+	{}
+.dropbtn
+	{color:white;
+	padding:16px;
+	font-size:16px;
+	border:none;
+	right:25px}
+#btn
+	{padding:5px;
+	font-size:14px;
+	border:2px;
+	height:2%;
+	width:50%}
+.dropdown
+	{position:absolute;
+	display:inline-block;
+	top:0%;
+	right:0%}
+.dropdown-content
+	{display:none;
+	position:absolute;
+	background-color:'';
+	min-width:160px;
+	z-index:1}
+.dropdown-content a
+	{color:black;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block}
+#input
+	{width:100%}
+#a1
+	{width:100%}
+#a2
+	{width:100%}
+#a3
+	{width:100%}
+#a4
+	{width:100%}
+#a5
+	{width:100%}
+#a6
+	{width:100%}
+#a7
+	{width:100%}
+#sideNote
+	{width:100%}
+#numbers
+	{width:'50'}
+#pas
+	{width:'50'}
+#dnc
+	{width:'50'}
+#as
+	{width:'50'}
+#jobName
+	{background-color:''}
+#destit
+	{background-color:''}
+#myList
+	{background-color:''}
+#uid
+	{background-color:''}
+#wrap
+	{margin-top:10px}
+.cube
+	{margin:auto;
+	position:relative;
+	height:200px;
+	width:200px;
+	top:200px;
+	left:100px}
+.cube > div
+	{position:absolute;
+	padding:10px;
+	height:100%;
+	width:100%;
+	background-color:#000;
+	border:solid 1px #eeeeee;
+	color:#ffffff}
+#f
+	{text-align:center}
+#back
+	{text-align:center}
+#right
+	{text-align:center}
+#left
+	{text-align:center}
+#top
+	{text-align:center}
+#bottom
+	{text-align:center}
+#appTitle
+	{}
+.cube
+	{}
+#f
+	{}
+#back
+	{}
+#right
+	{}
+#left
+	{}
+#appTitle
+	{position:relative;
+	color:#34000D;
+	font-weight:bold;
+	font-family:"chiller";
+	font-size:800%;
+	left:25%;
+	top:200px}
+#top
+	{}
+#bottom
+	{}
+#background
+	{}
+.cube > div
+	{}
+#image
+	{height:100%}
+#input2
+	{width:100%}
+#ibutton
+	{position:fixed;
+	right:0px;
+	height:0px;
+	bottom:0px;
+	width:0px}
+#obutton
+	{position:fixed;
+	right:0px;
+	height:0px;
+	bottom:0px;
+	width:0px}
+#abutton
+	{position:fixed;
+	right:0px;
+	height:0px;
+	bottom:0px;
+	width:0px}
+#yname
+	{position:fixed;
+	right:0px;
+	height:0px;
+	bottom:0px;
+	width:0px}
+#bname
+	{position:fixed;
+	right:0px;
+	height:0px;
+	bottom:0px;
+	width:0px}
+#qa
+	{position:fixed;
+	right:0px;
+	height:0px;
+	bottom:0px;
+	width:0px}
+#cname
+	{position:fixed;
+	right:0px;
+	height:0px;
+	bottom:0px;
+	width:0px}
+#addr
+	{position:fixed;
+	right:0px;
+	height:0px;
+	bottom:0px;
+	width:0px}
+#hph
+	{position:fixed;
+	right:0px;
+	height:0px;
+	bottom:0px;
+	width:0px}
+#ssn
+	{position:fixed;
+	right:0px;
+	height:0px;
+	bottom:0px;
+	width:0px}
+#ssn4
+	{position:fixed;
+	right:0px;
+	height:0px;
+	bottom:0px;
+	width:0px}
+#addR
+	{position:fixed;
+	right:0px;
+	height:0px;
+	bottom:0px;
+	width:0px}
+#hpH
+	{position:fixed;
+	right:0px;
+	height:0px;
+	bottom:0px;
+	width:0px}
+#poe
+	{position:fixed;
+	right:0px;
+	height:0px;
+	bottom:0px;
+	width:0px}
+#poen
+	{position:fixed;
+	right:0px;
+	height:0px;
+	bottom:0px;
+	width:0px}
+#altN
+	{position:fixed;
+	right:0px;
+	height:0px;
+	bottom:0px;
+	width:0px}
+#informationalDiv
+	{position:fixed;
+	border-style:groove;
+	border-color:#39FF14;
+	border-width:20px 30px 20px 70px;
+	top:5px;
+	width:57%;
+	left:20%;
+	height:35%}
+#estimates
+	{top:200px}
+#uidInput
+	{position:relative;
+	height:25px;
+	left:25%;
+	top:475px;
+	width:50%;
+	text-align:center;
+	font-size:275%}
+#atticWork
+	{position:relative;
+	height:25px;
+	right:0%;
+	top:475px;
+	width:100%;
+	text-align:center;
+	font-size:275%}
+#csv-file
+	{position:relative;
+	text-align:center;
+	height:25px;
+	width:20%}
+#fileJob
+	{position:relative;
+	left:0;
+	font-size:15px;
+	top:300px}
+#jW
+	{position:relative;
+	text-align:center;
+	height:25px;
+	width:20%}
+#searchButton
+	{position:relative;
+	text-align:center;
+	height:25px;
+	width:20%}
+#newNum
+	{position:relative;
+	text-align:center;
+	height:25px;
+	width:20%}
+#upperWork
+	{position:relative;
+	height:25px;
+	right:0%;
+	top:550px;
+	width:100%;
+	text-align:center;
+	font-size:275%}
+#aNumber
+	{position:relative;
+	text-align:center;
+	height:25px;
+	width:33%}
+#resource
+	{position:relative;
+	text-align:center;
+	height:25px;
+	width:33%}
+#phone
+	{position:relative;
+	text-align:center;
+	height:25px;
+	width:33%}
+#lowerWork
+	{position:relative;
+	height:25px;
+	right:0%;
+	top:650px;
+	width:100%;
+	text-align:center;
+	font-size:275%}
+#ckState
+	{position:relative;
+	text-align:center;
+	height:25px;
+	width:33%}
+#nkState
+	{position:relative;
+	text-align:center;
+	height:25px;
+	width:33%}
+#result
+	{position:relative;
+	text-align:center;
+	height:25px;
+	width:33%}
+#basicResult
+	{position:relative;
+	text-align:center;
+	height:25px;
+	width:33%}
+#emailDiv
+	{position:relative;
+	height:25px;
+	right:0%;
+	top:750px;
+	width:100%;
+	text-align:center;
+	font-size:275%}
+#email1
+	{position:relative;
+	text-align:center;
+	height:25px;
+	width:20%}
+#email2
+	{position:relative;
+	text-align:center;
+	height:25px;
+	width:20%}
+#email3
+	{position:relative;
+	text-align:center;
+	height:25px;
+	width:20%}
+#email4
+	{position:relative;
+	text-align:center;
+	height:25px;
+	width:20%}
+#email5
+	{position:relative;
+	text-align:center;
+	height:25px;
+	width:20%}
+#acctRef
+	{position:fixed;
+	text-align:center;
+	height:400px;
+	width:400px;
+	right:0px;
+	font-size:15}
+#input3
+	{position:fixed;
+	text-align:center;
+	height:200px;
+	width:400px;
+	left:0px;
+	font-size:15;
+	top:0px}
+#a8
+	{position:fixed;
+	text-align:center;
+	height:200px;
+	width:400px;
+	left:0px;
+	font-size:15;
+	top:200px}
+#currentDate
+	{font-size:200%;
+	position:relative;
+	top:-70px;
+	left:27%;
+	height:2px;
+	color:#39FF14;
+	font-weight:bold;
+	font-family:"Andalus"}
+#time
+	{font-size:400%;
+	position:relative;
+	top:-37px;
+	left:70%;
+	height:2px;
+	color:#39FF14;
+	font-weight:bold;
+	font-family:"Andalus"}
+#resourceDisplay
+	{font-size:200%;
+	position:relative;
+	top:-37%;
+	left:25%;
+	height:2px;
+	color:#39FF14;
+	font-weight:bold;
+	font-family:"Andalus"}
+#currentAccount
+	{font-size:350%;
+	position:relative;
+	top:25%;
+	left:30%;
+	height:2px;
+	color:#39FF14;
+	font-weight:bold;
+	font-family:"Andalus"}
+#tot
+	{font-size:200%;
+	position:relative;
+	top:32%;
+	left:5%;
+	height:2px;
+	color:#39FF14;
+	font-weight:bold;
+	font-family:"Andalus"}
+#kStateDescription
+	{font-size:200%;
+	position:relative;
+	top:32%;
+	left:5%;
+	height:2px;
+	color:#39FF14;
+	font-weight:bold;
+	font-family:"Andalus"}
+#kStateDescription2
+	{font-size:200%;
+	position:relative;
+	top:32%;
+	left:5%;
+	height:2px;
+	color:#39FF14;
+	font-weight:bold;
+	font-family:"Andalus"}
+#areacode
+	{font-size:200%;
+	position:relative;
+	top:-35px;
+	left:40%;
+	height:2px;
+	color:#39FF14;
+	font-weight:bold;
+	font-family:"Andalus"}
+#newNumPercent
+	{font-size:200%;
+	position:relative;
+	top:-57%;
+	left:15%;
+	height:2px;
+	color:#39FF14;
+	font-weight:bold;
+	font-family:"Andalus"}
+#newNumPercentTag
+	{font-size:200%;
+	position:relative;
+	top:-57%;
+	left:5%;
+	height:2px;
+	color:#39FF14;
+	font-weight:bold;
+	font-family:"Andalus"}
+#compTime2
+	{font-size:150%;
+	position:relative;
+	top:-5px;
+	left:25%;
+	height:2px;
+	color:#39FF14;
+	font-weight:bold;
+	font-family:"Andalus"}
+#compTime
+	{font-size:150%;
+	position:relative;
+	top:0px;
+	left:30%;
+	height:2px;
+	color:#39FF14;
+	font-weight:bold;
+	font-family:"Andalus"}
+#compTime3
+	{font-size:150%;
+	position:relative;
+	top:4px;
+	left:37%;
+	height:2px;
+	color:#39FF14;
+	font-weight:bold;
+	font-family:"Andalus"}
+#datePlace
+	{width:0px}
+#a2
+	{width:0px}
+#a1
+	{width:0px}
+#dialButton
+	{position:relative;
+	border-style:groove;
+	border-color:#39FF14;
+	border-width:2px;
+	top:450px;
+	width:55px;
+	left:0%;
+	height:55px}
+#searchK
+	{position:relative;
+	border-style:groove;
+	border-color:#39FF14;
+	border-width:2px;
+	top:500px;
+	width:80px;
+	left:0%;
+	height:55px}
+#accurintSearches
+	{position:relative;
+	border-style:groove;
+	border-color:#39FF14;
+	border-width:2px;
+	top:439px;
+	width:80px;
+	left:0%;
+	height:55px}
+#jobIndicator
+	{font-size:200%;
+	position:relative;
+	top:400px;
+	left:1%;
+	height:2px;
+	color:#39FF14;
+	font-weight:bold;
+	font-family:"Andalus"}
+#kStateIndicator
+	{font-size:200%;
+	position:relative;
+	top:420px;
+	left:0%;
+	height:2px;
+	color:#39FF14;
+	font-weight:bold;
+	font-family:"Andalus"}
+#choosingKStates
+	{font-size:0%;
+	position:relative;
+	top:0;
+	left:0%;
+	height:0}
+#ko1
+	{position:relative;
+	border-style:groove;
+	border-color:#39FF14;
+	border-width:2px;
+	width:40px;
+	left:0%;
+	height:40px}
+#ko2
+	{position:relative;
+	border-style:groove;
+	border-color:#39FF14;
+	border-width:2px;
+	width:40px;
+	left:0%;
+	height:40px}
+#ko3
+	{position:relative;
+	border-style:groove;
+	border-color:#39FF14;
+	border-width:2px;
+	width:40px;
+	left:0%;
+	height:40px}
+#ko4
+	{position:relative;
+	border-style:groove;
+	border-color:#39FF14;
+	border-width:2px;
+	width:40px;
+	left:0%;
+	height:40px}
+-->
+</style>
+</head>
+<body>
+<div id="acctRef">
+<div id="ref1">DATE: </div>
+<p id="ref2">ACCOUNT: </p>
+<p id="ref3">RESOURCE: </p>
+<p id="ref4">PHONE: </p>
+<p id="ref5">TOTAL NUMBERS FOUND: </p>
+<p id="ref6">NEW NUMBERS FOUND: </p>
+<p id="ref7">NOTE: </p>
+<p id="ref8">REPORT NOTE: </p>
+<p id="ref9">CURRENT K STATE: </p>
+<p id="ref10">NEW K STATE: </p>
+</div>
+ <div id="informationalDiv">
+<div id="tot">ACCOUNT: 0 OF 0</div>
+<p id="currentAccount">No Account</p>
+<p id="currentDate"></p>
+<p id="time"></p>
+<p id="resourceDisplay">SKIP RESOURCE: N/a</p>
+<p id="areacode">PH: ()- / TZ: XXX </p>
+<p id="compTime2">No Completion Estimates</p>
+<p id="compTime">ETC:|0|wk|0|dy|0|hr|0|min|0|sec|</p>
+<p id="compTime3">Duration: 0 mins 0 secs</p>
+<p id="kStateDescription"></p>
+<p id="kStateDescription2"></p>
+<p></p>
+<p id="newNumPercentTag">NUMBERS FOUND: 0</p>
+<p id="newNumPercent">0/0:0%</p>
+</div>
+<div id="estimates">
+<div id="tota"></div>
+</div>
+ <div id="atticWork">
+<div id="fileJob"></div>
+SEARCH
+<div id="newNum"></div>
+</div>
+<div id="upperWork"> </div>
+<div id="lowerWork"> </div>
+<div id="emailDiv"><a id="emailer" href="UrlBlockedError.aspx" target="_blank"></a>
+</div>
+<p id="jobIndicator">NO JOB SELECTED</p>
+<p id="kStateIndicator">NO K STATE SELECTED</p>
+<div id="choosingKStates">K01K02K03K04 </div>
+DialK State SearchesFind New Numbers
+<div></div>
+<br>
+INBOUNDOUTBOUNDAUTHORIZED THIRD PARTYYOUR NAMEBANKS NAMEQA STATEMENTCALLERS FULL NAMEADDRESSHOME PHONE NUMBERSSNSSN LAST 4ADDRESSHOME PHONE NUMBERPLACE OF EMPLOYMENTPLACE OF EMPLOYMENT NUMBERALTERNATIVE NUMBER
+<div id="startingMili"></div>
+<div id="endingMili"></div>
+<div>
+<div>
+<div id="changeny"></div>
+<div id="poc"></div>
+<div id="container"></div>
+</div>
+<div id="data"></div>
+<div id="curKs"></div>
+<div id="nKs"></div>
+<div id="first"></div>
+ <div id="eighth"></div>
+<div id="place"></div>
+<br>
+<div id="datePlace"></div>
+<div id="dateDiv"></div>
+<div id="changeyn"></div>
+<div id="ksChange"></div>
+<div id="second"></div>
+<div id="jobName"></div>
+ <div id="uid"></div>
+<br>
+<style>
+<!--
+table
+	{width:100%}
+table, td
+	{border:1px solid black;
+	width:100%}
+td
+	{width:30%}
+td
+	{text-align:center;
+	font-size:150%}
+#multiBtn
+	{position:relative;
+	width:12.5%;
+	margin-left:auto;
+	margin-right:auto;
+	left:25%}
+#clr
+	{position:relative;
+	width:12.5%;
+	margin-left:auto;
+	margin-right:auto;
+	left:30%}
+#close
+	{position:relative;
+	width:12.5%;
+	margin-left:auto;
+	margin-right:auto;
+	left:35%}
+#pT
+	{}
+#ok
+	{}
+#nk
+	{}
+#rT
+	{}
+#tT
+	{}
+#uidT
+	{}
+#reT
+	{}
+#daT
+	{}
+#listItem
+	{background-color:#f9e5e5;
+	font-size:25px;
+	position:relative;
+	top:200%;
+	left:25%}
+#list
+	{background-color:#ccccff}
+li
+	{font-size:25px}
+#inputs
+	{top:5%;
+	left:50%;
+	height:2px}
+#wrap
+	{margin-top:300px}
+.cube
+	{margin:auto;
+	position:relative;
+	height:200px;
+	width:200px}
+.cube > div
+	{position:absolute;
+	padding:10px;
+	height:100%;
+	width:100%;
+	background-color:#000;
+	border:solid 1px #eeeeee;
+	color:#ffffff}
+#f
+	{text-align:center}
+#back
+	{text-align:center}
+#right
+	{text-align:center}
+#left
+	{text-align:center}
+#top
+	{text-align:center}
+#bottom
+	{text-align:center}
+.cube
+	{}
+#f
+	{}
+#back
+	{}
+#right
+	{}
+#left
+	{}
+#top
+	{}
+#bottom
+	{}
+#background
+	{}
+input
+	{}
+ul
+	{}
+li
+	{}
+button
+	{}
+body
+	{}
+.cube > div
+	{}
+#image
+	{height:100%}
+table
+	{}
+#myTable
+	{}
+td
+	{}
+#poc
+	{}
+#ksc
+	{}
+#nks
+	{}
+#cks
+	{}
+#anT
+	{}
+#nnPT
+	{}
+#downloadTable
+	{width:100%;
+	right:0px;
+	font-size:25px}
+#checkResults
+	{width:50%;
+	left:1000px;
+	font-size:25px}
+#tableBack
+	{position:relative;
+	height:25px;
+	right:0%;
+	top:700px;
+	width:100%;
+	text-align:center;
+	font-size:200%}
+-->
+</style>
+<div id="tableBack">DOWNLOAD TABLE TO EXCEL
+<table id="myTable">
+<tbody>
+<tr>
+<td id="tT">ACCOUNT#</td>
+<td id="pT">PHONE #</td>
+<td id="rT">RESULT</td>
+<td id="ok">OLD K STATE</td>
+<td id="nk">NEW K STATE</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</body>
+</html>

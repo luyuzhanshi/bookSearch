@@ -1,0 +1,312 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<style>
+<!--
+#list
+	{background-color:}
+li
+	{font-size:25px}
+#inputs
+	{top:5%;
+	left:50%;
+	height:2px}
+#wrap
+	{margin-top:300px}
+.cube
+	{margin:auto;
+	position:relative;
+	height:200px;
+	width:200px}
+.cube > div
+	{position:absolute;
+	padding:10px;
+	height:100%;
+	width:100%;
+	background-color:#000;
+	border:solid 1px #eeeeee;
+	color:#ffffff}
+#f
+	{text-align:center}
+#back
+	{text-align:center}
+#right
+	{text-align:center}
+#left
+	{text-align:center}
+#top
+	{text-align:center}
+#bottom
+	{text-align:center}
+.cube
+	{}
+#f
+	{}
+#back
+	{}
+#right
+	{}
+#left
+	{}
+#top
+	{}
+#bottom
+	{}
+#background
+	{}
+input
+	{}
+div
+	{}
+ul
+	{}
+li
+	{}
+button
+	{}
+.cube > div
+	{}
+#aNumber
+	{position:fixed;
+	height:30px;
+	width:200px;
+	left:25%;
+	top:5%;
+	color:red;
+	font-size:15px;
+	text-align:center}
+#aNumberCounter
+	{position:fixed;
+	height:30px;
+	width:200px;
+	left:45%;
+	top:1%;
+	color:red;
+	font-size:25px;
+	width:20px}
+#search
+	{position:fixed;
+	left:41.7%;
+	top:5.5%;
+	font-size:15px}
+#phone
+	{position:fixed;
+	left:52%;
+	top:5%;
+	font-size:15px;
+	height:30px;
+	width:200px;
+	text-align:center;
+	color:red}
+#note
+	{position:fixed;
+	left:21%;
+	top:15%;
+	width:50%;
+	height:25px;
+	font-size:25px;
+	text-align:center;
+	color:red}
+#listItem
+	{position:fixed;
+	left:25%;
+	top:10%;
+	width:20%;
+	height:25px;
+	font-size:25px;
+	color:red;
+	background-color:#f9e5e5;
+	text-align:center}
+#inBound
+	{background-color:yellow}
+#outBound
+	{background-color:yellow}
+#response
+	{position:fixed;
+	left:47%;
+	top:10%;
+	width:20%;
+	height:25px;
+	font-size:25px;
+	color:red;
+	background-color:#f9e5e5;
+	text-align:center}
+#image
+	{height:100%}
+-->
+</style>
+</head>
+<body id="background">
+DATE:
+<div id="currentDate"></div>
+TIME:
+<div id="time"></div>
+<br>
+INBOUNDOUTBOUND
+<div id="aNumberCounter"></div>
+Search Account
+<ul id="list">
+</ul>
+<style>
+<!--
+table
+	{width:100%}
+table, td
+	{border:1px solid black;
+	width:100%}
+td
+	{text-align:center;
+	font-size:150%}
+#multiBtn
+	{position:relative;
+	width:12.5%;
+	margin-left:auto;
+	margin-right:auto;
+	left:25%;
+	background-color:red}
+#clr
+	{position:relative;
+	width:12.5%;
+	margin-left:auto;
+	margin-right:auto;
+	left:30%}
+#close
+	{position:relative;
+	width:12.5%;
+	margin-left:auto;
+	margin-right:auto;
+	left:35%}
+#pT
+	{}
+#rT
+	{}
+#uidT
+	{}
+#reT
+	{}
+#daT
+	{}
+#list
+	{background-color:#ccccff}
+li
+	{font-size:25px}
+#inputs
+	{top:5%;
+	left:50%;
+	height:2px}
+#wrap
+	{margin-top:300px}
+.cube
+	{margin:auto;
+	position:relative;
+	height:200px;
+	width:200px}
+.cube > div
+	{position:absolute;
+	padding:10px;
+	height:100%;
+	width:100%;
+	background-color:#000;
+	border:solid 1px #eeeeee;
+	color:#ffffff}
+#f
+	{text-align:center}
+#back
+	{text-align:center}
+#right
+	{text-align:center}
+#left
+	{text-align:center}
+#top
+	{text-align:center}
+#bottom
+	{text-align:center}
+.cube
+	{}
+#f
+	{}
+#back
+	{}
+#right
+	{}
+#left
+	{}
+#top
+	{}
+#bottom
+	{}
+#background
+	{}
+input
+	{}
+div
+	{}
+ul
+	{}
+li
+	{}
+button
+	{}
+body
+	{}
+.cube > div
+	{}
+#image
+	{height:100%}
+table
+	{}
+#myTable
+	{width:100%}
+td
+	{width:14.28%}
+#poc
+	{width:14.28%}
+#ksc
+	{width:14.28%}
+#nks
+	{width:14.28%}
+#cks
+	{width:14.28%}
+#tT
+	{width:14.28%}
+#anT
+	{width:14.28%}
+#newNum
+	{}
+#nnPT
+	{}
+#intentions
+	{position:fixed;
+	background-color:#f9e5e5;
+	width:0%;
+	right:0%}
+td
+	{background-color:grey}
+-->
+</style>
+<div id="background">
+<table id="myTable">
+<tbody>
+<tr>
+<td id="tT">Account number</td>
+<td id="pT">Caller</td>
+<td id="pT">Phone number</td>
+<td id="daT">Date called</td>
+<td id="reT">Intentions</td>
+<td id="uidT">Comment</td>
+</tr>
+</tbody>
+</table>
+<div id="intentions">Intention Options <br>
+ Reinstate <br>
+ Extend Forbearance <br>
+ Modification <br>
+ Stay DelinquentExit </div>
+Hello, this is (your name) with Fifth Third Bank. We understand that you live in or near the impacted area from the recent hurricane. We are sorry to hear that you may have been impacted and want you to know that as your bank we are here to help anyway that
+ we can. \n We would like to review your situation and determine the next steps on your account.
+<br>
+Download Spreadsheet
+<p id="disasterTable"></p>
+ </div>
+</body>
+</html>
